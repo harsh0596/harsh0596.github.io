@@ -1,0 +1,12 @@
+html {
+    background: #9D50BB;
+    background: linear-gradient(to left, #9D50BB , #6E48AA);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 200px;
+}
