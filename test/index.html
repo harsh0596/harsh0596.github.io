@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="main-calc">
+            <div class= "bg display-wrap">
+                <div class="display">0</div>
+                <div class="op-display"></div>
+            </div>
+            
+            
+            <div class="buttons">
+                <div class="row">
+                    <div class="button" value="ce" type="clear">CE</div>
+                    <div class="button" value="c" type="clear">C</div>
+                    <div class="button" value="back" type="clear" id="bs">⬅</div>
+                    <div class="button" value="/" type="op">÷</div>
+                </div>
+
+                <div class="row">
+                    <div class="button" value="7" type="num">7</div>
+                    <div class="button" value="8" type="num">8</div>
+                    <div class="button" value="9" type="num">9</div>
+                    <div class="button" value="*" type="op">×</div>
+                </div>
+
+                <div class="row">
+                    <div class="button" value="4" type="num">4</div>
+                    <div class="button" value="5" type="num">5</div>
+                    <div class="button" value="6" type="num">6</div>
+                    <div class="button" value="-" type="op">-</div>
+                </div>
+
+                <div class="row">
+                    <div class="button" value="1" type="num">1</div>
+                    <div class="button" value="2" type="num">2</div>
+                    <div class="button" value="3" type="num">3</div>
+                    <div class="button" value="+" type="op">+</div>
+                </div>
+
+                <div class="row">
+                    <div class="button" value="~" type="neg">~</div>
+                    <div class="button" value="0" type="num">0</div>
+                    <div class="button" value="." type="num">.</div>
+                    <div class="button" value="=" type="solve">=</div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
